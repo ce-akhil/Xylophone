@@ -25,7 +25,7 @@ class Instrument extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.black,
+      
         appBar: AppBar(
           backgroundColor: Colors.teal.shade200,
           title: Center(child: Text('A Music Instrument')),
