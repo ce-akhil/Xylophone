@@ -39,6 +39,7 @@ class Instrument extends StatelessWidget {
               buildKey(color: Colors.green, soundNumber: 3),
               buildKey(color: Colors.yellow, soundNumber: 4),
               buildKey(color: Colors.teal, soundNumber: 5),
+              buildKey(color: Colors.red, soundNumber: 7),
               buildKey(color: Colors.pinkAccent, soundNumber: 6),
               buildKey(color: Colors.deepOrangeAccent, soundNumber: 7),
             ],
