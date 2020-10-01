@@ -12,7 +12,7 @@ class Instrument extends StatelessWidget {
 
   Expanded buildKey({Color color, int soundNumber}) {
     return Expanded(
-      child: FlatButton(
+      child: RaisedButton(
         color: color,
         onPressed: () {
           playSound(soundNumber);
@@ -28,7 +28,7 @@ class Instrument extends StatelessWidget {
         backgroundColor: Colors.black,
         appBar: AppBar(
           backgroundColor: Colors.teal.shade200,
-          title: Center(child: Text('Xylophone')),
+          title: Center(child: Text('A Music Instrument')),
         ),
         body: SafeArea(
           child: Column(
