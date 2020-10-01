@@ -12,7 +12,7 @@ class Instrument extends StatelessWidget {
 
   Expanded buildKey({Color color, int soundNumber}) {
     return Expanded(
-      child: FlatButton(
+      child: RaisedButton(
         color: color,
         onPressed: () {
           playSound(soundNumber);
