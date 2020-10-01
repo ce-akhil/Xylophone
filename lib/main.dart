@@ -28,7 +28,7 @@ class Instrument extends StatelessWidget {
       
         appBar: AppBar(
           backgroundColor: Colors.teal.shade200,
-          title: Center(child: Text('A Music Instrument')),
+          title: Center(child: Text('Xylophone')),
         ),
         body: SafeArea(
           child: Column(
@@ -41,7 +41,7 @@ class Instrument extends StatelessWidget {
               buildKey(color: Colors.teal, soundNumber: 5),
               buildKey(color: Colors.red, soundNumber: 7),
               buildKey(color: Colors.pinkAccent, soundNumber: 6),
-              buildKey(color: Colors.deepOrangeAccent, soundNumber: 7),
+          
             ],
           ),
         ),
